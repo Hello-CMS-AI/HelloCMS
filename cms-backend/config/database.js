@@ -1,7 +1,7 @@
 // /cms-backend/config/database.js
 const mongoose = require('mongoose');
 
-const MONGODB_URI = 'mongodb://localhost:27017/news-cms';
+const MONGODB_URI = 'mongodb+srv://hellocms:hellocms12345@cms-cluster.ebeio.mongodb.net/news-cms?retryWrites=true&w=majority';
 
 const connectDB = async () => {
   try {
