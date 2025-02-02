@@ -1,5 +1,5 @@
 const cron = require('node-cron');
-const Post = require('../models/Post'); // Import the Post model
+const Post = require('../models/post'); // Import the Post model
 const dayjs = require('dayjs');
 
 // Define your cron job to check for posts that need to be published

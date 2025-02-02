@@ -1,5 +1,5 @@
 // controllers/liveUpdateController.js
-const Post = require('../models/Post');
+const Post = require('../models/post');
 const LiveUpdate = require('../models/LiveUpdate');
 
 const MAX_PINNED = 2;

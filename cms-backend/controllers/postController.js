@@ -1,7 +1,7 @@
 // controllers/postController.js
 
 const mongoose = require('mongoose');
-const Post = require('../models/Post');
+const Post = require('../models/post');
 const LiveUpdate = require('../models/LiveUpdate');
 
 /**
