@@ -1,7 +1,7 @@
 // /cms-backend/config/database.js
 const mongoose = require('mongoose');
 
-const MONGODB_URI = 'mongodb+srv://hellocms:kW9F6yaWHYVbBxHs@cms-cluster.ebeio.mongodb.net/?retryWrites=true&w=majority&appName=cms-cluster';
+const MONGODB_URI = 'mongodb+srv://hellocms:kW9F6yaWHYVbBxHs@cms-cluster.ebeio.mongodb.net/dinasuvadu?retryWrites=true&w=majority&appName=cms-cluster';
 
 const connectDB = async () => {
   try {
